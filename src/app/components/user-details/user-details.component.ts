@@ -44,11 +44,9 @@ export class UserDetailsComponent implements OnInit {
     //typed js added to the page
     const options = {
       strings: ['Enter your username please.'],
-      typeSpeed: 100,
-      backSpeed: 100,
-      loop: true
+      
  };
-// const omonge = new Typed('.moringa', options);
+ //const omonge = new Typed('.moringa', options);
   }
 
 }

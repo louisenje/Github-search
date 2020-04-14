@@ -1,7 +1,7 @@
 import { Directive , ElementRef, HostListener} from '@angular/core';
 
 @Directive({
-  selector: '[appUserDet]'
+  selector: '.app-user-Det'
 })
 export class UserDetDirective {
 
