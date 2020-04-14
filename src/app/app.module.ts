@@ -9,6 +9,7 @@ import { TongleComponent } from './components/tongle/tongle.component';
 import { ToggleComponent } from './components/toggle/toggle/toggle.component';
 import { UserDetailsComponent } from './components/user-details/user-details/user-details.component';
 import { DateCountPipe } from './date-count.pipe';
+import { UserDetDirective } from './user-det.directive';
 //import { UserDetailsComponent } from './components/user-details/user-details.component';
 //import { ToggleComponent } from './components/toggle/toggle.component';
 //import { UserDetDirective } from './user-det.directive';
@@ -27,6 +28,7 @@ import { DateCountPipe } from './date-count.pipe';
     ToggleComponent,
     UserDetailsComponent,
     DateCountPipe,
+    UserDetDirective,
    // UserDetailsComponent,
    // ToggleComponent,
    // UserDetDirective,
