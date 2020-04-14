@@ -4,8 +4,8 @@
   <div class="search-class">
     <h1>Github search</h1>
     
-    <p id='users' class="btn btn-success" (click)="searchUsers = true">Users</p>
-    <p id='repos' class="btn btn-danger" (click)="searchUsers = false">Repos</p>
+    <p id='users' class="btn btn-light" (click)="searchUsers = true">Users</p>
+    <p id='repos' class="btn btn-light" (click)="searchUsers = false">Repos</p>
   </div>
   <p class="moringa"></p>
   <form>
@@ -22,8 +22,8 @@
     </div>
     <div class="details to-right">
         <h3>{{user.name}}</h3>
-        <p class="btn btn-success"> User Followers<br><span>{{user.followers}}</span></p>
-        <p class="btn btn-success"> User Following<br><span>{{user.following}}</span></p>
+        <p class="btn btn-success" > User Followers<br><span>{{user.followers}}</span></p>
+        <p class="btn btn-light"> User Following<br><span>{{user.following}}</span></p>
         <p class="btn btn-danger"> User Repositories<br><span>{{user.public_repos}}</span></p>
     </div>
     
