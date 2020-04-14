@@ -2,8 +2,10 @@
     <div class="row">
       <div class="col-md-12">
   <div class="search-class">
+    <h1>Github search</h1>
+    <h1> Input username here</h1>
     <p id='users' class="btn btn-warning" (click)="searchUsers = true">Users</p>
-    <p id='repos' class="btn btn-info" (click)="searchUsers = false">Repos</p>
+    <p id='repos' class="btn btn-warning" (click)="searchUsers = false">Repos</p>
   </div>
   <p class="moringa"></p>
   <form>
@@ -22,7 +24,7 @@
         <h3>{{user.name}}</h3>
         <p class="btn btn-info"> User Followers<br><span>{{user.followers}}</span></p>
         <p class="btn btn-info"> User Following<br><span>{{user.following}}</span></p>
-        <p class="btn btn-primary"> User Repositories<br><span>{{user.public_repos}}</span></p>
+        <p class="btn btn-danger"> User Repositories<br><span>{{user.public_repos}}</span></p>
     </div>
     
   </div>
