@@ -31,7 +31,7 @@ form{
     margin: 0 5px;
 }
 h1{
-    color:lime;
+    color:red;
     font-size: 80px;
     padding-bottom: 5%;
 }
@@ -90,14 +90,6 @@ button:hover::after{
 .prof-btn{
     margin-top: 1%;
 }
-.btn1{
-    color: lime;
-}
-.btn2{
-    color:olivedrab;
-}
-.btn3{
-    color:green;
-}
+
 
 
