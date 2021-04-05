@@ -1,4 +1,4 @@
-import { TestBed } from '@angular/core/testing';
+/*import { TestBed } from '@angular/core/testing';
 
 import { ServiceRequestService } from './service-request.service';
 
@@ -10,8 +10,8 @@ describe('ServiceRequestService', () => {
     expect(service).toBeTruthy();
   });
 });
-
-/*import { TestBed } from '@angular/core/testing';
+*/
+import { TestBed } from '@angular/core/testing';
 
 import { ServiceRequestService } from './service-request.service';
 
@@ -27,4 +27,4 @@ describe('ServiceRequestService', () => {
     expect(service).toBeTruthy();
   });
 });
-*/
+

@@ -46,7 +46,7 @@ export class UserDetailsComponent implements OnInit {
       strings: ['Enter your username please.'],
       
  };
- //const omonge = new Typed('.moringa', options);
+ 
   }
 
 }
